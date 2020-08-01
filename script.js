@@ -38,7 +38,6 @@ function submitBtn() {
     const tryCountCurrent = document.getElementById("try-count").innerText;
     const tryCountNumberCurrent = parseInt(tryCountCurrent);
     const tryCountNumber = parseInt("1");
-
     if (tryCountNumberCurrent > 1) {
       const tryCount = tryCountNumberCurrent - tryCountNumber;
       document.getElementById("try-count").innerText = tryCount;
